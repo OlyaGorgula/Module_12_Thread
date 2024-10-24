@@ -3,7 +3,7 @@ package module12.lesson9;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Task2 {
+public class TestTask2 {
     public static void main(String[] args)  {
         ProcessThread fizzBuzz = new ProcessThread((n) -> {
             if (n % 15 == 0){

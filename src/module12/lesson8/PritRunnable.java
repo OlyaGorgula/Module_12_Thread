@@ -9,11 +9,11 @@ public class PritRunnable implements Runnable {
 
     @Override
     public void run() {
-    System.out.println("item = "+item);
-    try {
-        Thread.sleep(1000); // 1cek
-    }catch (InterruptedException e){
-        e.printStackTrace();
-    }
+        System.out.println("item = "+item);
+        try {
+           Thread.sleep(1000); // 1cek
+        }catch (InterruptedException e){
+            e.printStackTrace();
+        }
     }
 }
